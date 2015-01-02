@@ -1,0 +1,26 @@
+{
+  "name": "stripfields",
+  "description": "Strip unmatched fields from an object based on a schema object",
+  "version": "0.1.0",
+  "author": {
+    "name": "Anthony Schneider"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anthonyserious/stripfields.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "2.x",
+    "lodash": "2.x",
+    "expect.js": "0.3.x"
+  },
+  "scripts": {
+    "prepublish": "npm prune",
+    "test": "./node_modules/.bin/mocha ./test/tests.js"
+  },
+  "bugs": {
+    "url": "https://github.com/anthonyserious/stripfields/issues"
+  }
+}
+
